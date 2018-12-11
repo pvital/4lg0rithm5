@@ -1,4 +1,4 @@
-# Sock Merchant
+# Electronics Shop
 
 > This problem is described at https://www.hackerrank.com/challenges/electronics-shop/problem
 
