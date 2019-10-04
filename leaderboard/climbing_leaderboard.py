@@ -50,7 +50,10 @@ if __name__ == '__main__':
 
     alice = list(map(int, input().rstrip().split()))
 
-    result = climbingLeaderboard(scores, alice)
+    print(scores_count, len(scores))
+    print(alice_count, len(alice))
+
+    #result = climbingLeaderboard(scores, alice)
 
     # fptr.write('\n'.join(map(str, result)))
     # fptr.write('\n')
