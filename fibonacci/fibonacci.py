@@ -22,10 +22,21 @@
 #
 
 
-def fibonacci(n):
-    if (n == 0) or (n == 1):
-        yield 1
-    yield (fibonacci(n-1) + fibonacci(n-2))
+def fibonacci(n: int) -> int:
+    '''
+    Recursive function to handle Fibonacci calculations.
+
+    Args:
+        n: int
+    
+    Returns:
+        int
+    '''
+    if (n == 0):
+        return 0
+    if (n == 1):
+        return 1
+    return (fibonacci(n-2) + fibonacci(n-1))
 
 
 # int main(int argc, char#*argv)
@@ -50,6 +61,10 @@ def fibonacci(n):
 # }
 
 if __name__ == '__main__':
-    end = input("Type a limit number: ")
-    print("The Fibonacci sequence for {0} is: ".format(end),
-        list(fibonacci(int(end))))
+    end = input('Type a limit number: ')
+    sequence = []
+    for i in range(int(end)+1):
+        sequence.append(fibonacci(i))
+
+    print(f'The Fibonacci sequence for {end} is: {sequence}')
+        

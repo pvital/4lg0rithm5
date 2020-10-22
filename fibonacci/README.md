@@ -1,19 +1,23 @@
 # Fibonacci
 
-A **Fibonacci sequence** is an integer sequence characterized by the fact that every number after the first two is the sum of the two preceding ones:
+A **[Fibonacci sequence]** is an integer sequence characterized by the fact that 
+each number is the sum of the two preceding ones, starting from 0 and 1:
 
-![Fibonacci sequence](https://wikimedia.org/api/rest_v1/media/math/render/svg/7951ca1f26aebf2afbb3eb7f30c4725e635a79b3)
+```0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...```
 
-By definition, the first two numbers in the Fibonacci sequence are either 1 and 1, or 0 and 1, depending on the chosen starting point of the sequence, and each subsequent number is the sum of the previous two.
+In some older books, the first two numbers in the Fibonacci sequence are either 
+1 and 1, and each subsequent number is the sum of the previous two.
 
-In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the recurrence relation:
+In mathematical terms, the sequence ```Fn``` of Fibonacci numbers is defined by 
+the recurrence relation:
 
 ![](https://wikimedia.org/api/rest_v1/media/math/render/svg/0fff1a1716fcc169546079870357f92757ade5fa)
 
 with seed values
 
-![](https://wikimedia.org/api/rest_v1/media/math/render/svg/4e5717c664395faf20231a2e5bbe561960e055b0)
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/3c667d91153450b3a161371582ee8227af85951f)
 
-This source code implements in C the calculation of a Fibonacci sequence of a given number.
+This source code implements in C and Python the calculation of a Fibonacci 
+sequence of a given number.
 
-To learn more about Fibonacci sequence, visit https://en.wikipedia.org/wiki/Fibonacci_number
+[Fibonacci sequence]: https://en.wikipedia.org/wiki/Fibonacci_number 
